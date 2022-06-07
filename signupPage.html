@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+#box{
+    width:28%;
+    height:500px;
+    margin:auto;
+    border:1px solid transparent;
+    margin-top: 60px;
+    background-color:#32a89e
+}
+
+#box>p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#inner{
+    display:grid;
+    gap:20px;
+}
+
+#inner>input{
+    display:block;
+    margin:auto;
+    width:260px;
+    height:50px;
+    font-size: 15px;
+    background-color:#eee;
+
+}
+
+#inner>button{
+    width:270px;
+    height:50px;
+    margin:auto;
+    font-size:18px ;
+}
+</style>
+<body>
+    <div id="box">
+        <p>- Visitor -</p>
+        <div id="inner">
+        <input type="text" placeholder="Full Name"/>
+        <input type="text" placeholder="Email"/>
+        <input type="text" placeholder="Organization"/>
+        <button>Sign Up</button>
+        <button>Return</button>
+        </div>
+
+    </div>
+</body>
+</html>
